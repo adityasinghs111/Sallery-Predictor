@@ -24,7 +24,6 @@ env/
 .vscode/
 
 # Ignore compiled models or pickled files (optional)
-*.pkl
 *.h5
 *.joblib
 
