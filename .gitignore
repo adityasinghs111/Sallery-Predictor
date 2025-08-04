@@ -1,0 +1,51 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables or secrets
+.env
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore compiled models or pickled files (optional)
+*.pkl
+*.h5
+*.joblib
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore coverage/test files
+.coverage
+htmlcov/
+*.cov
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
